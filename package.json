@@ -11,8 +11,17 @@
   },
   "dependencies": {
     "@astrojs/check": "^0.9.1",
+    "@astrojs/react": "^3.6.1",
+    "@astrojs/solid-js": "^4.4.0",
     "@directus/sdk": "^16.1.1",
+    "@govtechsg/sgds-react": "^2.6.0",
+    "@govtechsg/sgds-web-component": "^1.4.0",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@webcomponents/scoped-custom-element-registry": "^0.0.9",
     "astro": "^4.13.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
     "typescript": "^5.5.4"
   }
 }

@@ -1,0 +1,9 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import { createItem } from "@directus/sdk";
+import BlogForm from "../../components/blogs/BlogForm";
+---
+
+<Layout title="Editing">
+  <BlogForm client:load></BlogForm>
+</Layout>
