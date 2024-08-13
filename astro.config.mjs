@@ -1,9 +1,11 @@
 import { defineConfig } from 'astro/config';
-import solidjs from "@astrojs/solid-js";
+//import solidjs from "@astrojs/solid-js";
 import react from "@astrojs/react";
+import sitemap from "@astrojs/sitemap";
 
 
 // https://astro.build/config
 export default defineConfig({
-  integrations: [react()]
+  site: 'http://localhost:4321',
+  integrations: [react(), sitemap()]
 });

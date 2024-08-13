@@ -12,6 +12,7 @@
   "dependencies": {
     "@astrojs/check": "^0.9.1",
     "@astrojs/react": "^3.6.1",
+    "@astrojs/sitemap": "^3.1.6",
     "@astrojs/solid-js": "^4.4.0",
     "@directus/sdk": "^16.1.1",
     "@govtechsg/sgds-react": "^2.6.0",

@@ -38,7 +38,6 @@ const BlogForm = () => {
         content: fields.content,
         published_date: currentDate,
         slug: fields.slug,
-        image: fields.image,
       })
     );
 
